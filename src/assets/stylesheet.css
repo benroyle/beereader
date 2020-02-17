@@ -1,0 +1,92 @@
+/* --- general --- */
+body { background-color: #7ec0ee; font-size: 16px; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; background-image: url('grass.png'); background-repeat: repeat-x; background-attachment: scroll; background-position: bottom; }
+.App { height: 100vh; }
+.modalDiv { display: block; position: absolute; width: 50%; min-height: 30%; top: 25%; left: 25%; background-color: white; border: 1px solid #292929; padding: 15px;
+}
+.formContainer { display: inline-block; position: relative; width: calc(100% - 30px); background-color: white; border: 1px solid #292929; padding: 15px; }
+form .left { width: 40%; float: left; clear: right; margin-bottom: 10px; }
+form .right { width: 60%; float: right; margin-bottom: 10px; }
+form input[type=text], form input[type=password], form input[type=file], form select { font-size: 16px; padding: 5px; }
+form input[type=text], form input[type=password], form input[type=file] { width: calc(100% - 15px); margin-right: 15px; }
+form select { width: 100%; }
+form button { min-width: 120px; background: #ffca31; border: 1px solid #292929; color: #292929; text-decoration: none; cursor: pointer; font-size: 16px; padding: 5px; margin-right: 15px; }
+form button:hover { text-decoration: underline; }
+form button:last-of-type { margin-right: 0px; }
+.errorMsg { color: red; font-size: 20px; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; }
+.contentErrorMsg { width: calc(100% - 32px); display: block; float: left; clear: both; margin-bottom: 10px; padding: 15px; background-color: white; border: 1px solid #666; color: red; font-size: 20px; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; }
+
+/* --- header --- */
+.header { width: 100%; height: 120px; }
+.header .title { display: flex; justify-content: center; align-items: center; width: 100%; height: 90px; }
+.header .title .titleContainer { display: inline-block; box-sizing: border-box; border: 1px solid #292929; }
+.header .title .titleContainer .black { background: -webkit-linear-gradient(#292929, #ffca31); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-color: #292929; color: #ffca31; font-size: 24px; font-weight: 700; float: left; clear: right; min-width: 25px; min-height: 25px; display: flex; justify-content: center; align-items: center; }
+.header .title .titleContainer .yellow { background-color: #ffca31; color: #292929; font-size: 24px; font-weight: 700; float: left; clear: right; min-width: 25px; min-height: 25px; display: flex; justify-content: center; align-items: center; }
+.header .linksBar { display: block; width: 100%; }
+.header .linksBar .greeting { float: left; clear: right; margin-left: 10px; }
+.header .linksBar .links { float: right; clear: right; text-align: right; background-color: #ffca31; padding: 0 15px; border: 1px solid #292929; margin-right: 15px; }
+.header .linksBar .links a { margin-right: 15px; color: #292929; background-color: #ffca31; font-size: 16px; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; padding: 0 10px; }
+.header .linksBar .links a:last-of-type { margin-right: 0; }
+.header .linksBar .links .active { background-color: #292929; color: #ffca31; }
+
+/* --- navColumn --- */
+.navColumn { width: 265px; height: calc(100% - 64px); padding-bottom: 64px; float: left; clear: right; }
+.navColumn .title { display: flex; justify-content: flex-start; align-items: center; width: 250px; height: 90px; padding-left: 15px; float: left; clear: right; }
+.navColumn .title .titleContainer { display: inline-block; width: 100%; height: 25px;box-sizing: border-box; border: 1px solid #292929; }
+.navColumn .title .titleContainer .titleFont { width: 10%; height: 100%; font-size: 18px; font-weight: 700; float: left; clear: right; display: flex; justify-content: center; align-items: center; }
+.navColumn .title .titleContainer .titleFont.black { background-color: #292929; color: #ffca31; }
+.navColumn .title .titleContainer .titleFont.yellow { background-color: #ffca31; color: #292929; }
+.navColumn .navbar { width: 250px; height: calc(100% - 184px); float: left; clear: right; padding-left: 15px; }
+.navColumn .navbar .navbarHeader { background-color: #292929; color: white; border: 1px solid #292929; padding: 0 15px; }
+.navColumn .navbar .navbarContent { height: calc(100vh - 132px); overflow-x: hidden; overflow-y: auto; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar { height: 12px; width: 12px; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-thumb:vertical { background-color: transparent; border-radius: 6px; }
+.navColumn .navbar .navbarContent:hover::-webkit-scrollbar-thumb:vertical { background-color: rgba(0, 0, 0, 0.15); border: 3px solid #f6f7f8; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:vertical { display: block; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:start:decrement { display: block; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:end:increment { display: block; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:vertical:start:increment { display: none; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:vertical:end:decrement { display: none; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:vertical:increment { display: none; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-button:vertical:decrement { display: none; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-track:vertical { display: none; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-track-piece { background-color: transparent; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-corner:vertical { background-color: transparent; }
+.navColumn .navbar .navbarContent::-webkit-scrollbar-resizer:vertical { background-color: transparent; }
+.navColumn .navbar .navbarContent .buttonDiv { background-color: #ffca31; border-left: 1px solid #292929; border-right: 1px solid #292929; border-bottom: 1px solid #292929; }
+.navColumn .navbar .navbarContent .buttonDiv.random { margin-top: 15px; border-top: 1px solid #292929; }
+.navColumn .navbar .navbarContent .buttonDiv p { padding: 0 15px; }
+.navColumn .navbar .navbarContent .buttonDiv button { width: 100%; background: none; border: none; color: #292929; text-decoration: none; cursor: pointer; font-size: 16px; padding: 5px; }
+.navColumn .navbar .navbarContent .buttonDiv button:hover { text-decoration: underline; }
+.navColumn .navbar .navbarContent .buttonDiv button.active { background: #292929; color: #ffca31; }
+
+/* --- contentColumn --- */
+.contentColumn { width: calc(100% - 265px); float: right; padding-bottom: 64px; }
+.contentColumn .greeting { display: flex; justify-content: center; align-items: center; width: 200px; height: 90px; float: left; clear: right; }
+.contentColumn nav { display: flex; justify-content: flex-end; align-items: center; width: calc(100% - 200px); height: 90px; float: left; clear: right; }
+.contentColumn nav .links { float: right; clear: right; text-align: right; background-color: #ffca31; padding: 0 15px; border: 1px solid #292929; margin-right: 15px; }
+.contentColumn nav .links a { margin-right: 20px; color: #292929; background-color: #ffca31; font-weight: 400; padding: 0 15px; }
+.contentColumn nav .links a:last-of-type { margin-right: 0; }
+.contentColumn nav .links .active { background-color: #292929; color: #ffca31; }
+.contentColumn .contentDiv { width: calc(100% - 30px); float: right; clear: right; padding-left: 15px; padding-right: 15px; }
+.contentColumn .contentDiv .contentHeader { background-color: #292929; color: white; border: 1px solid #292929; padding: 0 15px; }
+.contentColumn .contentDiv .item { width: calc(100% - 32px); display: block; float: left; clear: both; margin-bottom: 15px; padding: 0 15px; background-color: white; border: 1px solid #666; }
+.contentColumn .contentDiv .item.opened .title, .contentColumn .contentDiv .item.opened .date, .contentColumn .contentDiv .item.opened .content { float: left; clear: both; }
+.contentColumn .contentDiv .item .title { display: block; width: calc(100% - 47px); min-height: 25px; cursor: pointer; padding: 10px 0; margin: 0; padding-right: 45px; }
+.contentColumn .contentDiv .item.closed .title { background: url('open.png') no-repeat right center; }
+.contentColumn .contentDiv .item.opened .title { background: url('close.png') no-repeat right center; font-weight: 700; }
+.contentColumn .contentDiv .item .content * { max-width: 100%; }
+.contentColumn .contentDiv .item .content img { height: auto; }
+.contentColumn .contentDiv .item.opened { display: block; font-size: 16px; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; padding-bottom: 15px; }
+.contentColumn .contentDiv .item.opened .link { float: left; clear: both; margin-top: 15px; }
+.contentColumn .contentDiv .item.opened .link a { word-break: break-all; }
+.contentColumn .contentDiv .item.closed * { display: none; }
+.contentColumn .contentDiv .item.closed .title { display: block; }
+
+/* --- MyDetails --- */
+.myDetails { clear: both; }
+.myDetailsName { width: 70%; float: left; clear: right; }
+.myDetailsAction { width: 15%; float: left; clear: right; }
+
+/* --- Admin --- */
+.adminName { width: 55%; float: left; clear: right; }
+.adminAction { width: 15%; float: left; clear: right; }

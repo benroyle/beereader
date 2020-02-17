@@ -1,0 +1,9 @@
+se bcrypt to has the username and password, sha-256.
+
+Bee animation - https://codepen.io/elorenn/pen/WEPMEv
+
+incorporate JWT
+
+get db working on port 3000
+
+get user sign up / authenticate email address working
