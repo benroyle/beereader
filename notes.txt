@@ -1,4 +1,4 @@
-se bcrypt to has the username and password, sha-256.
+use bcrypt to has the username and password, sha-256.
 
 Bee animation - https://codepen.io/elorenn/pen/WEPMEv
 

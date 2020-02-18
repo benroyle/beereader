@@ -1,1 +1,1 @@
-node src/database/database.js
+node src/server/server.js

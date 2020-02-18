@@ -3,6 +3,8 @@ const mysql      = require("mysql");
 const bodyParser = require("body-parser");
 const connectionDetails = require("./../private/dbConfig.js");
 const connection = mysql.createPool(connectionDetails);
+const jwt = require('./../helpers/jwt');
+const errorHandler = require('./../helpers/jwt-error-handler');
 const app = express();
 
 function showError(err) {
@@ -19,6 +21,15 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+// use JWT auth to secure the api
+app.use(jwt());
+
+// api routes
+app.use('/users', require('./../controllers/users.controller'));
+
+// global error handler
+app.use(errorHandler);
 
 app.post("/beereader/getFeedsForUser", function(req, res) {
   const id = connection.escape(req.body.id);
@@ -236,11 +247,13 @@ app.post("/beereader/adminAddUser", function(req, res) {
   });
 });
 
-app.listen(3001, () => {
+const port = process.env.NODE_ENV === 'production' ? 80 : 4000;
+
+const server = app.listen(port, function () {
   var thisDate = new Date();
   // get the date as a string
   var date = thisDate.toDateString();
   // get the time as a string
   var time = thisDate.toLocaleTimeString();
- console.log(date + ", " + time + ": Now serving at http://localhost:3001/.");
+ console.log(date + ", " + time + ": Now serving at http://localhost:" + port + "/.");
 });
