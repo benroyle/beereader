@@ -51,6 +51,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/services/auth.service.js",
+			"settings":
+			{
+				"buffer_size": 1325,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -92,10 +101,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Git/beereader/client"
+		"/D/Git/beereader/client",
+		"/D/Git/beereader/client/src",
+		"/D/Git/beereader/client/src/services"
 	],
 	"file_history":
 	[
+		"/D/Git/beereader/client/package.json",
+		"/D/Git/beereader-vue/server/server.js",
 		"/D/Git/beereader/src/Login.js",
 		"/D/Git/beereader/src/services/auth.service.js",
 		"/D/Git/beereader/src/components/AppFrame.vue",
@@ -193,7 +206,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 104.0,
+		"height": 107.0,
 		"where_history":
 		[
 			"",
@@ -207,6 +220,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"3000",
 			"login(",
 			"login()",
 			"currentUser",
@@ -258,8 +272,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/services/auth.service.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -302,7 +347,7 @@
 	"project": "beereader.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
