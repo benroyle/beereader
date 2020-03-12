@@ -92,51 +92,51 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Git/beereader"
+		"/D/Git/beereader/client"
 	],
 	"file_history":
 	[
 		"/D/Git/beereader/src/Login.js",
-		"/D/Git/beereader-vue/src/services/auth.service.js",
-		"/D/Git/beereader-vue/src/components/AppFrame.vue",
+		"/D/Git/beereader/src/services/auth.service.js",
+		"/D/Git/beereader/src/components/AppFrame.vue",
 		"/D/Git/beereader/src/Navbar.js",
-		"/D/Git/beereader-vue/src/components/Content.vue",
-		"/D/Git/beereader-vue/src/assets/stylesheet.css",
-		"/D/Git/beereader-vue/src/components/NavbarItem.vue",
-		"/D/Git/beereader-vue/src/components/Navbar.vue",
-		"/D/Git/beereader-vue/src/App.vue",
-		"/D/Git/beereader-vue/src/router.js",
-		"/D/Git/beereader-vue/src/components/Login.vue",
-		"/D/Git/beereader-vue/src/main.js",
+		"/D/Git/beereader/src/components/Content.vue",
+		"/D/Git/beereader/src/assets/stylesheet.css",
+		"/D/Git/beereader/src/components/NavbarItem.vue",
+		"/D/Git/beereader/src/components/Navbar.vue",
+		"/D/Git/beereader/src/App.vue",
+		"/D/Git/beereader/src/router.js",
+		"/D/Git/beereader/src/components/Login.vue",
+		"/D/Git/beereader/src/main.js",
 		"/D/Git/beereader/package.json",
 		"/D/Git/beereader/src/App.js",
-		"/D/Git/beereader-vue/package.json",
-		"/D/Git/beereader-vue/src/helpers/role.js",
+		"/D/Git/beereader/package.json",
 		"/D/Git/beereader/src/helpers/role.js",
-		"/D/Git/beereader-vue/src/router/index.js",
-		"/D/Git/beereader-vue/src/components/PaegNotFound.vue",
-		"/D/Git/beereader-vue/src/components/PaegNotFound",
+		"/D/Git/beereader/src/helpers/role.js",
+		"/D/Git/beereader/src/router/index.js",
+		"/D/Git/beereader/src/components/PaegNotFound.vue",
+		"/D/Git/beereader/src/components/PaegNotFound",
 		"/C/Users/benro/Downloads/TEXTREME-master/TEXTREME-master/README.md",
-		"/D/Git/beereader-vue/vue.config.js",
-		"/D/Git/beereader-vue/src/store/index.js",
-		"/D/Git/beereader-vue/src/components/HelloWorld.vue",
-		"/D/Git/beereader-vue/notes.txt",
+		"/D/Git/beereader/vue.config.js",
+		"/D/Git/beereader/src/store/index.js",
+		"/D/Git/beereader/src/components/HelloWorld.vue",
+		"/D/Git/beereader/notes.txt",
 		"/D/Git/beereader/src/Content.js",
-		"/D/Git/beereader-vue/src/private/dbConfig.js",
+		"/D/Git/beereader/src/private/dbConfig.js",
 		"/C/Users/benro/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/Git/testben/src/main.js",
 		"/D/Git/trebuchet-vue/src/components/Everything.vue",
 		"/D/Git/trebuchet-vue/src/router/index.js",
 		"/D/Git/trebuchet-vue/src/main.js",
 		"/D/Git/trebuchet-vue/src/App.vue",
-		"/D/Git/beereader-vue/src/Content.vue",
-		"/D/Git/beereader-vue/src/Navbar.vue",
 		"/D/Git/beereader/src/Content.vue",
-		"/D/Git/beereader-vue/src/Login.vue",
-		"/D/Git/beereader-vue/src/Logout.vue",
-		"/D/Git/beereader-vue/src/Admin/Navbar.vue",
-		"/D/Git/beereader-vue/src/components/private-route.js",
-		"/D/Git/beereader-vue/src/MyDetails/Navbar.vue",
+		"/D/Git/beereader/src/Navbar.vue",
+		"/D/Git/beereader/src/Content.vue",
+		"/D/Git/beereader/src/Login.vue",
+		"/D/Git/beereader/src/Logout.vue",
+		"/D/Git/beereader/src/Admin/Navbar.vue",
+		"/D/Git/beereader/src/components/private-route.js",
+		"/D/Git/beereader/src/MyDetails/Navbar.vue",
 		"/D/Git/beereader/src/index.js",
 		"/D/Git/beereader/src/index.css",
 		"/D/Git/beereader/src/server/server.js",
@@ -265,7 +265,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -322,7 +322,7 @@
 		[
 			[
 				"",
-				"D:\\Git\\beereader-vue\\beereader-vue.sublime-project"
+				"D:\\Git\\beereader\\beereader.sublime-project"
 			]
 		],
 		"width": 380.0
