@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Naba",
+				"NavbarItem"
+			],
+			[
+				"name",
+				"fullName"
+			],
+			[
+				"inst",
+				"installedLauncher"
+			],
+			[
+				"sele",
+				"selectGameFromPossibles"
+			],
+			[
+				"currn",
+				"currentList"
+			],
+			[
+				"installedL",
+				"installedLaunchersList"
+			],
+			[
+				"scan",
+				"scannedList"
+			],
+			[
+				"games",
+				"games"
+			],
+			[
+				"laun",
+				"launchersLocal"
+			],
+			[
+				"displ",
+				"displaySort"
+			],
+			[
+				"block",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Git/beereader"
+	],
+	"file_history":
+	[
+		"/D/Git/beereader/src/Login.js",
+		"/D/Git/beereader-vue/src/services/auth.service.js",
+		"/D/Git/beereader-vue/src/components/AppFrame.vue",
+		"/D/Git/beereader/src/Navbar.js",
+		"/D/Git/beereader-vue/src/components/Content.vue",
+		"/D/Git/beereader-vue/src/assets/stylesheet.css",
+		"/D/Git/beereader-vue/src/components/NavbarItem.vue",
+		"/D/Git/beereader-vue/src/components/Navbar.vue",
+		"/D/Git/beereader-vue/src/App.vue",
+		"/D/Git/beereader-vue/src/router.js",
+		"/D/Git/beereader-vue/src/components/Login.vue",
+		"/D/Git/beereader-vue/src/main.js",
+		"/D/Git/beereader/package.json",
+		"/D/Git/beereader/src/App.js",
+		"/D/Git/beereader-vue/package.json",
+		"/D/Git/beereader-vue/src/helpers/role.js",
+		"/D/Git/beereader/src/helpers/role.js",
+		"/D/Git/beereader-vue/src/router/index.js",
+		"/D/Git/beereader-vue/src/components/PaegNotFound.vue",
+		"/D/Git/beereader-vue/src/components/PaegNotFound",
+		"/C/Users/benro/Downloads/TEXTREME-master/TEXTREME-master/README.md",
+		"/D/Git/beereader-vue/vue.config.js",
+		"/D/Git/beereader-vue/src/store/index.js",
+		"/D/Git/beereader-vue/src/components/HelloWorld.vue",
+		"/D/Git/beereader-vue/notes.txt",
+		"/D/Git/beereader/src/Content.js",
+		"/D/Git/beereader-vue/src/private/dbConfig.js",
+		"/C/Users/benro/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Git/testben/src/main.js",
+		"/D/Git/trebuchet-vue/src/components/Everything.vue",
+		"/D/Git/trebuchet-vue/src/router/index.js",
+		"/D/Git/trebuchet-vue/src/main.js",
+		"/D/Git/trebuchet-vue/src/App.vue",
+		"/D/Git/beereader-vue/src/Content.vue",
+		"/D/Git/beereader-vue/src/Navbar.vue",
+		"/D/Git/beereader/src/Content.vue",
+		"/D/Git/beereader-vue/src/Login.vue",
+		"/D/Git/beereader-vue/src/Logout.vue",
+		"/D/Git/beereader-vue/src/Admin/Navbar.vue",
+		"/D/Git/beereader-vue/src/components/private-route.js",
+		"/D/Git/beereader-vue/src/MyDetails/Navbar.vue",
+		"/D/Git/beereader/src/index.js",
+		"/D/Git/beereader/src/index.css",
+		"/D/Git/beereader/src/server/server.js",
+		"/D/Git/beereader/src/controllers/users.controller.js",
+		"/D/Git/beereader/src/services/users.service.js",
+		"/D/Git/beereader/src/services/auth.service.js",
+		"/D/Git/beereader/src/private/config.json",
+		"/D/Git/beereader/src/services/user.service.js",
+		"/D/Git/beereader/src/helpers/jwt-error-handler.js",
+		"/D/Git/beereader/src/helpers/jwt.js",
+		"/D/Git/beereader/src/services/admin.service.js",
+		"/D/Git/beereader/src/services/feed.service.js",
+		"/D/Git/beereader/src/database/database.js",
+		"/D/Git/beereader/src/private/dbConfig.js",
+		"/D/Git/beereader-react/beereader-react.sublime-project",
+		"/D/Git/trebuchet/assets/scripts/index.js",
+		"/D/Git/trebuchet-vue/src/components/Steam.vue",
+		"/D/Git/trebuchet-vue/src/data/localLaunchers.json",
+		"/D/Git/trebuchet/package.json",
+		"/D/Git/trebuchet-react/src/App/App.js",
+		"/D/Git/trebuchet-react/src/App/ViewEverything/ViewEverything.jsx",
+		"/D/Git/trebuchet-react/package.json",
+		"/D/Git/trebuchet-react/src/_services/games.service.js",
+		"/D/Git/trebuchet-react/node_modules/regedit/lib/execFile.js",
+		"/D/Git/trebuchet-react/node_modules/regedit/lib/cscript.js",
+		"/D/Git/trebuchet-react/package-lock.json",
+		"/D/Git/trebuchet-react/src/supportedLaunchersList.json",
+		"/D/Git/trebuchet-react/src/supportedLaunchersList.js",
+		"/D/Git/trebuchet/app.js",
+		"/D/Git/trebuchet-react/src/_services/index.js",
+		"/D/Git/trebuchet-react/src/App/redux/reducers/index.js",
+		"/D/Git/trebuchet-react/src/App/redux/reducers/view.js",
+		"/D/Git/trebuchet-react/src/App/redux/selectors.js",
+		"/D/Git/trebuchet-react/src/App/redux/actions.js",
+		"/D/Git/trebuchet-react/src/App/redux/actionTypes.js",
+		"/D/Git/trebuchet-react/src/index.jsx",
+		"/D/Git/trebuchet-react/src/App/redux/store.js",
+		"/D/Git/trebuchet/assets/styles/trebuchet.css",
+		"/D/Git/trebuchet-react/src/App/assets/styles/trebuchet.css",
+		"/D/Git/trebuchet-react/src/App/index.js",
+		"/D/Git/trebuchet/index.html",
+		"/D/Git/trebuchet-react/src/App/ViewEverything/index.js",
+		"/D/Git/trebuchet/assets/scripts/options.js",
+		"/D/Git/trebuchet/notes.txt",
+		"/D/Git/trebuchet/assets/scripts/utils.js",
+		"/D/Git/trebuchet/options.html",
+		"/D/Git/trebuchet/assets/scripts/swissarmyknife.js",
+		"/D/Git/trebuchet/assets/scripts/trebuchet.js",
+		"/D/Git/trebuchet/assets/scripts/launchers/steam.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"",
+			"-*/node-modules/*",
+			"-/*node-modules*/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"login(",
+			"login()",
+			"currentUser",
+			"article",
+			"className",
+			"routes",
+			"headerRow",
+			"className",
+			"navRow",
+			"contentRow",
+			"contentColumn",
+			"navColumn",
+			"errorMsg: \"",
+			"setState({",
+			"state",
+			"className",
+			"store",
+			"NavLink",
+			"Greeting",
+			"className",
+			"Navbar",
+			"className",
+			"matched",
+			"className",
+			"root",
+			"import React from 'react';",
+			"NavLink",
+			"Navbar",
+			"user.service",
+			"http://localhost:3001/",
+			"3001"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class",
+			"",
+			"http://localhost:4000/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "beereader.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Git\\beereader-vue\\beereader-vue.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

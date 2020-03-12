@@ -17,30 +17,30 @@ class Navbar extends React.Component {
     if (this.props.feedList.length > 0) {
       const feedlinks = this.props.feedList.map((feed, index) => {
         if ((feedService.feedValue !== null) && (feed.id !== feedService.feedValue.id)) {
-          return (<div className="buttonDiv" key={index}><button className="feed" onClick={this.opener.bind(this,feed)}>{feed.sitename}</button></div>);
+          return (<div class="buttonDiv" key={index}><button class="feed" onClick={this.opener.bind(this,feed)}>{feed.sitename}</button></div>);
         } else {
-          return (<div className="buttonDiv" key={index}><button className="feed active" onClick={this.opener.bind(this,feed)}>{feed.sitename}</button></div>);
+          return (<div class="buttonDiv" key={index}><button class="feed active" onClick={this.opener.bind(this,feed)}>{feed.sitename}</button></div>);
         }        
       });
       return feedlinks;
     } else {
-      return (<div className="buttonDiv"><p>No feeds yet! Go to the My Details page and add some.</p></div>);
+      return (<div class="buttonDiv"><p>No feeds yet! Go to the My Details page and add some.</p></div>);
     }
   }
 
   randomButton() {
     if (this.props.feedList.length > 0) {
-      return (<div className="buttonDiv random"><button className="random" onClick={this.randomOpener.bind(this)}>Random</button></div>);
+      return (<div class="buttonDiv random"><button class="random" onClick={this.randomOpener.bind(this)}>Random</button></div>);
     }
   }
 
 	render() {
 		return (
-			<div className="navbar">
-        <div className="navbarHeader">
+			<div class="navbar">
+        <div class="navbarHeader">
           Feeds
         </div>
-        <div className="navbarContent">
+        <div class="navbarContent">
           {this.getFeeds()}
           {this.randomButton()}
         </div>

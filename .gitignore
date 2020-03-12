@@ -2,3 +2,5 @@
 node_modules/
 
 src/private/
+
+package-lock.json

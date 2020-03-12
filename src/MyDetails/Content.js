@@ -408,7 +408,7 @@ class ImportOPML extends React.Component {
     if (this.state.file !== '') {
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(this.state.file,"text/xml");
-      const nodes = xmlDoc.getElementsByTagName("outline");     
+      const nodes = xmlDoc.getElementsByTagName("outline");
       for (var i = 0; i < nodes.length; i++) {
         console.log(nodes[i].outerHTML);
       }

@@ -3,8 +3,6 @@ const mysql      = require("mysql");
 const bodyParser = require("body-parser");
 const connectionDetails = require("./../private/dbConfig.js");
 const connection = mysql.createPool(connectionDetails);
-const jwt = require('./../helpers/jwt');
-const errorHandler = require('./../helpers/jwt-error-handler');
 const app = express();
 
 function showError(err) {
@@ -21,15 +19,6 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-// use JWT auth to secure the api
-app.use(jwt());
-
-// api routes
-app.use('/users', require('./../controllers/users.controller'));
-
-// global error handler
-app.use(errorHandler);
 
 app.post("/beereader/getFeedsForUser", function(req, res) {
   const id = connection.escape(req.body.id);
