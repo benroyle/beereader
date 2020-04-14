@@ -12,7 +12,7 @@ checkDuplicateFeedName = (req, res, next) => {
   .then(feed => {
     if (feed) {
       res.status(400).send({
-        message: "Failed! A feed with the name of '" + feed.sitename + "' already exists for this user!"
+        message: "FAILED: A feed with the name of '" + feed.sitename + "' already exists for this user."
       });
       return;
     } else {
@@ -31,7 +31,7 @@ checkDuplicateFeedURL = (req, res, next) => {
   .then(feed => {
     if (feed) {
       res.status(400).send({
-        message: "Failed! A feed with the URL of '" + feed.siteurl + "' already exists for this user!"
+        message: "FAILED: A feed with the URL of '" + feed.siteurl + "' already exists for this user"
       });
       return;
     } else {

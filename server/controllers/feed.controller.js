@@ -5,7 +5,7 @@ const Feed = db.feed;
 
 const Op = db.Sequelize.Op;
 
-exports.getFeedsForUser = (req, res) => {
+exports.getFeeds = (req, res) => {
   Feed.findAll({
     attributes: ['id', 'sitename', 'siteurl'],
     where: {
@@ -48,7 +48,7 @@ exports.addFeed = (req, res) => {
     userid: req.body.userid
   })
   .then(feeds => {
-    let message = {message: feeds.sitename + " was added successfully!"};
+    let message = {message: feeds.sitename + " was added successfully."};
     res.send(message);
     return;
   })
@@ -96,7 +96,7 @@ exports.editFeed = (req, res) => {
   })
   .then(data => {
     //console.log(data);
-    let message = {message: "The feed was edited successfully!"};
+    let message = {message: "The feed was edited successfully."};
     res.send(message);
     return;
   })
@@ -125,7 +125,7 @@ exports.deleteFeed = (req, res) => {
   })
   .then(data => {
     console.log(data);
-    let message = {message: "The feed was deleted successfully!"};
+    let message = {message: "The feed was deleted successfully."};
     res.send(message);
     return;
   })

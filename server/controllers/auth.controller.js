@@ -14,7 +14,6 @@ exports.signup = (req, res) => {
     password: bcrypt.hashSync(req.body.password, 8)
   })
   .then(user => {
-    console.log("signup");
     if (req.body.roles) {
       Role.findAll({
         where: {
@@ -46,7 +45,7 @@ exports.signup = (req, res) => {
   });
 };
 
-exports.checkAuth = (req, res) => {
+exports.signin = (req, res) => {
   User.findOne({
     where: {
       username: req.body.username
@@ -54,19 +53,17 @@ exports.checkAuth = (req, res) => {
   })
   .then(user => {
     if (!user) {
-      res.status(404).send({message: username + " not found."});
-      return;
+      return res.status(404).send({ message: "User Not found." });
     }
     var passwordIsValid = bcrypt.compareSync(
       req.body.password,
       user.password
     );
     if (!passwordIsValid) {
-      res.status(401).send({
+      return res.status(401).send({
         accessToken: null,
         message: "Invalid Password!"
       });
-      return;
     }
     var token = jwt.sign({ id: user.id }, config.secret, {
       expiresIn: 86400 // 24 hours
@@ -79,14 +76,13 @@ exports.checkAuth = (req, res) => {
       res.status(200).send({
         id: user.id,
         username: user.username,
+        email: user.email,
         roles: authorities,
         accessToken: token
       });
-      return;
     });
   })
   .catch(err => {
-    res.status(500).send({message: err.message});
-    return;
+    res.status(500).send({ message: err.message });
   });
 };

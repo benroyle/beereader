@@ -12,7 +12,7 @@ module.exports = function(app) {
     next();
   });
 
-  app.post("/beereader-vue/getFeedsForUser", controller.getFeedsForUser);
+  app.post("/beereader-vue/getFeeds", controller.getFeeds);
 
   app.post("/beereader-vue/getFeedItems", controller.getFeedItems);
 

@@ -4,7 +4,6 @@ const cors = require('cors')
 const bcrypt = require("bcryptjs");
 const app = express()
 
-
 var corsOptions = {
   origin: "http://localhost:8080"
 };
@@ -97,6 +96,7 @@ function showError(err) {
 }
 
 // routes
+require('./routes/admin.routes')(app);
 require('./routes/auth.routes')(app);
 require('./routes/feed.routes')(app);
 
