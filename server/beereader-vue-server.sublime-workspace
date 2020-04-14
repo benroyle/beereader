@@ -1,0 +1,633 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"feedSe",
+				"feedSelecter"
+			],
+			[
+				"submi",
+				"submitButton"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"su",
+				"submitButton"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"current",
+				"currentFeedItems"
+			],
+			[
+				"curr",
+				"currentUser"
+			],
+			[
+				"suppo",
+				"supportedLaunchersList"
+			],
+			[
+				"process",
+				"processLocalDetails"
+			],
+			[
+				"selected",
+				"selectedIndex"
+			],
+			[
+				"launc",
+				"launcherData"
+			],
+			[
+				"mn",
+				"manualList"
+			],
+			[
+				"manu",
+				"manualList"
+			],
+			[
+				"scanned",
+				"scannedList"
+			],
+			[
+				"gamesLi",
+				"gamesListDiv"
+			],
+			[
+				"attr",
+				"attributeName"
+			],
+			[
+				"data-launcher",
+				"data-launchername"
+			],
+			[
+				"error",
+				"errorHandler"
+			],
+			[
+				"open",
+				"openGameFiles"
+			],
+			[
+				"game",
+				"gamePaths"
+			],
+			[
+				"read",
+				"readManifestDir"
+			],
+			[
+				"launcherData",
+				"launcherDataReturned"
+			],
+			[
+				"ins",
+				"installedLauncher"
+			],
+			[
+				"launchers",
+				"launchersList"
+			],
+			[
+				"installed",
+				"installedLaunchers"
+			],
+			[
+				"launcherDat",
+				"launcherDataReturned"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"remot",
+				"remoteConfigDoesntExist"
+			],
+			[
+				"fu",
+				"fullName"
+			],
+			[
+				"reg",
+				"registrySubkey"
+			],
+			[
+				"updat",
+				"updateStatus"
+			],
+			[
+				"Optio",
+				"optionsObject"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Git/beereader-vue/server",
+		"/D/Git/beereader-vue/server/config",
+		"/D/Git/beereader-vue/server/controllers",
+		"/D/Git/beereader-vue/server/middleware",
+		"/D/Git/beereader-vue/server/models",
+		"/D/Git/beereader-vue/server/routes"
+	],
+	"file_history":
+	[
+		"/D/Git/beereader-vue/server/routes/auth.routes.js",
+		"/D/Git/beereader-vue/server/controllers/auth.controller.js",
+		"/D/Git/beereader-vue/server/controllers/admin.controller.js",
+		"/D/Git/beereader-vue/server/routes/admin.routes.js",
+		"/D/Git/beereader-vue/server/middleware/index.js",
+		"/D/Git/beereader-vue/server/middleware/verifyUsers.js",
+		"/D/Git/beereader-vue/server/server.js",
+		"/D/Git/beereader-vue/server/routes/feed.routes.js",
+		"/D/Git/beereader-vue/server/controllers/feed.controller.js",
+		"/D/Git/beereader-vue/server/models/user.model.js",
+		"/D/Git/beereader-vue/server/models/admin.model.js",
+		"/D/Git/beereader-vue/server/middleware/verifyFeeds.js",
+		"/D/Git/beereader/src/MyDetails/Content.js",
+		"/D/Git/beereader/src/assets/stylesheet.css",
+		"/D/Git/beereader/src/database/database.js",
+		"/D/Git/beereader/src/private/dbConfig.js",
+		"/D/Git/beereader/notes.txt",
+		"/D/Git/beereader/src/Admin/Content.js",
+		"/D/Git/beereader/package.json",
+		"/D/Git/beereader/src/database/config.js",
+		"/D/Git/beereader/src/MyDetails/Navbar.js",
+		"/D/Git/beereader/src/App.js",
+		"/D/Git/beereader/src/MyDetails/MyDetails.js",
+		"/D/Git/beereader/src/Admin/Navbar.js",
+		"/D/Git/beereader/src/Navbar.js",
+		"/D/Git/beereader/src/Content.js",
+		"/D/Git/beereader/src/services/feed.service.js",
+		"/D/Git/beereader/src/Admin/Admin.js",
+		"/D/Git/beereader/src/services/admin.service.js",
+		"/D/Google Drive/Documents/Export.html",
+		"/D/Git/beereader/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/generated/MouseEvent.js",
+		"/D/Git/beereader/src/Admin/AddUser.js",
+		"/D/Git/beereader/src/MyDetails/DeleteFeed.js",
+		"/D/Git/beereader/src/services/auth.service.js",
+		"/D/Git/beereader/src/MyDetails/AddFeed.js",
+		"/D/Git/beereader/src/MyDetails/EditFeed.js",
+		"/D/Git/beereader/src/Admin/EditUser.js",
+		"/D/Git/beereader/public/manifest.json",
+		"/D/Git/beereader/src/Admin/DeleteUser.js",
+		"/D/Git/beereader/src/App.css",
+		"/D/Git/beereader/src/User/MyDetails.js",
+		"/D/Git/beereader/src/User/EditFeed.js",
+		"/D/Git/beereader/src/User/User.js",
+		"/D/Git/beereader/src/Login.js",
+		"/D/Git/beereader/src/User/User.css",
+		"/D/Git/beereader/src/Content.css",
+		"/D/Git/beereader/src/components/private-route.js",
+		"/D/Git/beereader/src/LoginPage.js",
+		"/D/Steam/steamapps/common/BONEWORKS/BONEWORKS/holographic_bindings.json",
+		"/D/Steam/steamapps/common/BONEWORKS/BONEWORKS/cosmos_bindings.json",
+		"/D/Steam/steamapps/common/BONEWORKS/BONEWORKS/actions.json",
+		"/D/Steam/steamapps/common/BONEWORKS/BONEWORKS/BONEWORKS_Data/boot.config",
+		"/D/Steam/steamapps/common/BONEWORKS/BONEWORKS/oculus_bindings.json",
+		"/D/Git/beereader/src/Header.css",
+		"/D/Git/beereader/src/Routes.js",
+		"/D/Git/beereader/public/index.html",
+		"/D/Git/beereader/src/Header.js",
+		"/D/Git/beereader/src/Database.js",
+		"/D/Git/beereader/Gruntfile.js",
+		"/D/Git/beereader/start-server.bat",
+		"/D/Git/beereader/start-client.bat",
+		"/D/Git/beereader/client/src/App.js",
+		"/D/Git/beereader/client/src/Database.js",
+		"/D/Git/trebuchet/assets/scripts/index.js",
+		"/D/Git/trebuchet-react/src/App/App.js",
+		"/D/Git/trebuchet-react/src/App/ViewEverything/ViewEverything.jsx",
+		"/D/Git/trebuchet-react/src/_services/games.service.js",
+		"/D/Git/trebuchet-react/src/supportedLaunchersList.json",
+		"/D/Git/trebuchet/assets/scripts/launchers/steam.js",
+		"/D/Git/trebuchet-react/assets/scripts/index.js",
+		"/D/Git/trebuchet/assets/scripts/trebuchet.js",
+		"/D/Steam/steamapps/common/Jedi Academy/GameData/base/jaconfig.cfg",
+		"/D/Git/trebuchet/assets/scripts/launchers/egs.js",
+		"/D/Git/trebuchet/assets/scripts/launchers/uplay.js",
+		"/D/Git/trebuchet/assets/styles/trebuchet.css",
+		"/D/Git/trebuchet/options.html",
+		"/D/Git/trebuchet/index.html",
+		"/D/Git/trebuchet/notes.txt",
+		"/D/Git/trebuchet/assets/scripts/launchers/beth.js",
+		"/D/Git/trebuchet/package.json",
+		"/C/Users/benro/Downloads/node-system-icon-master/node-system-icon-master/package.json",
+		"/C/Users/benro/Downloads/node-system-icon-master/node-system-icon-master/index.js",
+		"/D/Git/trebuchet/assets/images/cloud.svg",
+		"/D/Git/trebuchet/dist/win-unpacked/resources/app.asar",
+		"/D/Git/trebuchet/assets/styles/bootstrap-grid.css",
+		"/D/Git/trebuchet/assets/images/overlay.svg",
+		"/C/Users/benro/Downloads/untitled.svg",
+		"/D/Git/trebuchet/launchers/egs.js",
+		"/D/Git/trebuchet/launchers/uplay.js",
+		"/D/Git/trebuchet/launchers/steam.js",
+		"/D/Git/trebuchet/trebuchet.css",
+		"/D/Git/trebuchet/trebuchet.js",
+		"/D/Git/trebuchet/app.js",
+		"/D/Git/trebuchet/package-lock.json",
+		"/D/Git/trebuchet/dist/latest.yml",
+		"/D/Git/trebuchet/dist/win-unpacked/resources/app-update.yml",
+		"/D/Git/trebuchet/node_modules/uuid/package.json",
+		"/D/Git/trebuchet/dist/builder-effective-config.yaml",
+		"/D/Git/trebuchet/node_modules/7zip-bin/package.json",
+		"/D/Git/trebuchet/node_modules/@develar/schema-utils/package.json",
+		"/D/Git/trebuchet/node_modules/@electron/get/package.json",
+		"/D/Git/trebuchet/node_modules/@electron/get/node_modules/debug/package.json",
+		"/D/Git/trebuchet/node_modules/@electron/get/node_modules/env-paths/package.json",
+		"/D/Git/trebuchet/node_modules/@electron/get/node_modules/fs-extra/package.json",
+		"/D/Git/trebuchet/node_modules/@electron/get/node_modules/sumchecker/package.json",
+		"/D/Git/trebuchet/node_modules/@sindresorhus/is/package.json",
+		"/D/Git/trebuchet/node_modules/@szmarczak/http-timer/package.json",
+		"/D/Git/trebuchet/node_modules/@types/debug/package.json",
+		"/D/Git/trebuchet/node_modules/@types/node/package.json",
+		"/D/Git/trebuchet/node_modules/ajv/package.json",
+		"/D/Git/trebuchet/node_modules/ajv/lib/dot/validate.jst",
+		"/D/Git/trebuchet/node_modules/ajv-keywords/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-align/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-align/node_modules/ansi-regex/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-align/node_modules/is-fullwidth-code-point/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-align/node_modules/string-width/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-align/node_modules/strip-ansi/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-regex/package.json",
+		"/D/Git/trebuchet/node_modules/ansi-styles/package.json",
+		"/D/Git/trebuchet/node_modules/apicalypse/package.json",
+		"/D/Git/trebuchet/node_modules/app-builder-bin/package.json",
+		"/D/Git/trebuchet/node_modules/app-builder-lib/package.json",
+		"/D/Git/trebuchet/node_modules/app-builder-lib/node_modules/debug/package.json",
+		"/D/Git/trebuchet/node_modules/app-builder-lib/node_modules/fs-extra/package.json",
+		"/D/Git/trebuchet/node_modules/app-builder-lib/node_modules/isbinaryfile/package.json",
+		"/D/Git/trebuchet/node_modules/app-builder-lib/node_modules/semver/package.json",
+		"/D/Git/trebuchet/node_modules/argparse/package.json",
+		"/D/Git/trebuchet/node_modules/array-find-index/package.json"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"-*/node_modules/*",
+			"-/*node_modules*/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"checkAuth",
+			"userEdit",
+			"feed",
+			"Feed",
+			"adController",
+			"getFeed",
+			"controller",
+			"feeds",
+			"sitename",
+			"siteurl",
+			"Feed",
+			"getFeedItems",
+			"getFeedsForUser",
+			"</h1>",
+			"<h1>",
+			"</h1>",
+			"<h1>",
+			"select",
+			"feedLinks",
+			"; ",
+			"button type=\"button\"",
+			"type=\"",
+			"/admin",
+			"Admin",
+			"MyDetailsPage",
+			"MyDetailsContent",
+			"AdminPage",
+			"background",
+			"70",
+			".LeftnavList",
+			".LeftnavLis",
+			"links",
+			"fullWidthDiv",
+			"hidden",
+			" border-radius: 30px 30px 0 0;",
+			"border",
+			"header",
+			"parse2HTML",
+			"p",
+			"<<<<<<<",
+			"corsUrl",
+			"parse2HTML",
+			" .navbarFeeds",
+			".header ",
+			">\n",
+			" .linksBar",
+			"color",
+			"feeds",
+			"feedError",
+			"\");     ",
+			"feedCount",
+			"Node",
+			"[i]",
+			");\n",
+			"useState",
+			"});\n",
+			"shuffleFeeds",
+			"username",
+			"currentUser",
+			"AddUser",
+			"HEAD",
+			"AddUser",
+			"===============",
+			"\");\n",
+			"/user",
+			"fe",
+			"adminService.getUsers(authenticationService.currentUserValue.id)",
+			"\" ",
+			"Site name",
+			"User URL",
+			"\\/user\\/",
+			"userService",
+			"feed",
+			"changeSurl",
+			"changeSname",
+			"siteurl",
+			"sitename",
+			"Feed",
+			"currentUser",
+			"password",
+			"siteurl",
+			"sitename",
+			"Surl",
+			"feed",
+			"Feed",
+			"feeds",
+			"feed",
+			"getFeeds",
+			"this.setState({errorMsg: ",
+			"this.state.",
+			"localStorage",
+			"<<<<",
+			"<<<<<<< HEAD",
+			"console.log",
+			"feedItem",
+			"feedItems",
+			"state",
+			"sessionStorage",
+			"Number",
+			"admin",
+			"useEffect",
+			"var ",
+			"getusers",
+			"getAllUsers",
+			"feed",
+			"User URL",
+			"getFeeds",
+			"getFeedsForUser",
+			"siteurl",
+			"sitename",
+			"Site",
+			"UserPage",
+			"currentFeedItems",
+			"browseToFeedItem",
+			"opener",
+			"closed",
+			"()}\n",
+			"authenticationService.login",
+			"currentUser",
+			"useS",
+			"reponse",
+			"react-router-dom",
+			"react-dom",
+			"fetch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"signin",
+			"getFeeds",
+			"</h2>",
+			"<h2>",
+			"</h2>",
+			"<h2>",
+			"button type=\"reset\"",
+			".navColumn .navbar .navbarContent",
+			"/admin",
+			"adminService.getUsers()",
+			"feeds",
+			"localStorage",
+			"getUsers",
+			"getusers",
+			"response"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "beereader-vue-server.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Google Drive\\Websites\\standsixfeetawayanddeliver.co.im\\standsixfeet.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 560.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -2,7 +2,7 @@
   "name": "beereader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.bozzley.co.uk:3000/beereader/",
+  "homepage": "https://www.bozzley.co.uk:8080/beereader/",
   "dependencies": {
     "axios": "^0.19.1",
     "bcryptjs": "^2.4.3",
@@ -19,7 +19,7 @@
     "x2js": "^3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=8080 && react-scripts start",
     "start-server": "node src/server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

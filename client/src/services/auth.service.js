@@ -17,7 +17,7 @@ async function login(username, password) {
       'content-type': 'application/json; charset=utf-8'
     }
   }
-  const checkAuth = await axios.post('http://localhost:4000/beereader/checkAuth', { 'username': username, 'password': password }, config)
+  const checkAuth = await axios.post('http://localhost:8081/beereader/checkAuth', { 'username': username, 'password': password }, config)
   .then((response) => (response.data[0]))
   .then((user) => {
     if (user !== undefined) {
