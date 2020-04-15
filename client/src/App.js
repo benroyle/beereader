@@ -114,13 +114,13 @@ class App extends React.Component {
               </div>
             </nav>
             <PrivateRoute exact path="/">
-              <Content feed={feed} />
+              <Content feed={feed} history={history}/>
             </PrivateRoute>
             <PrivateRoute path="/user">
               <MyDetailsContent currentUser={currentUser} history={history}/>
             </PrivateRoute>
             <PrivateRoute path="/admin" roles={[Role.Admin]}>
-              <AdminContent />
+              <AdminContent history={history}/>
             </PrivateRoute>
             <Route path="/logout">
               <LogoutPage/>
