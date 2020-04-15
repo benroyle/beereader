@@ -28,28 +28,16 @@ db.sequelize.sync({force: true}).then(() => {
   initial();
 });
 
+const userConfig = require("../config/user.config.js");
+
 function initial() {
-  User.create({
-    id: 1,
-    username: "benroyle",
-    password: bcrypt.hashSync("skunkap3", 8)
-  });
+  User.create(userConfig.user1);
 
-  User.create({
-    id: 2,
-    username: "benroyleadm",
-    password: bcrypt.hashSync("skunkap3", 8)
-  });
+  User.create(userConfig.user2);
 
-  Role.create({
-    id: 1,
-    name: "user"
-  });
+  Role.create(userConfig.role1);
  
-  Role.create({
-    id: 2,
-    name: "admin"
-  });
+  Role.create(userConfig.role2);
 
   Feed.create({
     id: 1,
